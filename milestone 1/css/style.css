@@ -1,0 +1,74 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* COMMON */
+img{
+    max-width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+/* HEADER */
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Logo */
+.logo{
+    width: 300px;
+}
+
+/* MAIN */
+main{
+    width: 100%;
+    height: calc( 100vh - 90px );
+    text-align: center;
+}
+main h2{
+    font-size: 40px;
+    padding-top: 30px;
+}
+/* Add in list */
+.add-in-list{
+    padding-top: 20px;
+}
+.add-in-list input{
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.add-in-list button{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* To do list */
+.todolist{
+    width: 60%;
+    margin: 30px auto;
+    text-align: left;
+    background-color: rgb(238, 236, 236);
+}
+.todolist ul{
+    padding: 20px;
+}
+.todolist ul li{
+    font-size: 18px;
+    padding: 10px 20px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.todolist ul li i{
+    float: right;
+    color: red;
+}
+.done{
+    text-decoration: line-through;
+}
